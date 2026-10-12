@@ -1,0 +1,6 @@
+{
+  "name": "Dozum",
+  "description": "Akıllı ilaç ve takviye takip uygulaması - Doz hatırlatıcıları, stok takibi ve uyum raporları",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

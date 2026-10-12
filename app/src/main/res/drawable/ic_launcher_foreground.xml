@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="54"
+        android:translateY="54"
+        android:rotation="-45">
+        <!-- Capsule body background outline / glow -->
+        <path
+            android:fillColor="#15FFFFFF"
+            android:pathData="M-12,-26 C-4,-26 4,-26 12,-26 C20,-26 26,-20 26,-12 L26,12 C26,20 20,26 12,26 L-12,26 C-20,26 -26,20 -26,12 L-26,-12 C-26,-20 -20,-26 -12,-26 Z" />
+        
+        <!-- Top Half of Capsule (White) -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M-10,-24 C-3,-24 3,-24 10,-24 C17,-24 23,-18 23,-11 L23,-1 L-23,-1 L-23,-11 C-23,-18 -17,-24 -10,-24 Z" />
+            
+        <!-- Bottom Half of Capsule (Mint / Cyan accent) -->
+        <path
+            android:fillColor="#6DF5E1"
+            android:pathData="M-23,1 L23,1 L23,11 C23,18 17,24 10,24 C3,24 -3,24 -10,24 C-17,24 -23,18 -23,11 Z" />
+            
+        <!-- Division line -->
+        <path
+            android:fillColor="#00685F"
+            android:pathData="M-23,-1 L23,-1 L23,1 L-23,1 Z" />
+
+        <!-- Checkmark / cross symbol on top half -->
+        <path
+            android:fillColor="#00685F"
+            android:pathData="M-3,-16 L3,-16 L3,-10 L-3,-10 Z" />
+        <path
+            android:fillColor="#00685F"
+            android:pathData="M-6,-13 L6,-13 L6,-11 L-6,-11 Z" />
+            
+        <!-- Subtle shine reflection on pill -->
+        <path
+            android:fillColor="#55FFFFFF"
+            android:pathData="M-17,-18 C-17,-13 -17,-7 -17,-1 L-14,-1 C-14,-7 -14,-13 -14,-18 Z" />
+    </group>
+</vector>
